@@ -10,7 +10,7 @@ server.post("/register", (req,res)=>{
         else console.log("PASSWORD :", hashPswd);
 })
 res.send({
-        status:"User registration completed"
+        status:"User registration Success"
     })                                                               
 })
 
